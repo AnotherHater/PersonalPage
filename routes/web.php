@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'FrontController@index');
-Route::get('/test','FrontController@test');
+Route::post('/','mail@send');
