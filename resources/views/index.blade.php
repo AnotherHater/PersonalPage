@@ -443,7 +443,6 @@
       </div>
     </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="http://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
 <script>
@@ -486,7 +485,8 @@ $("#send").click(function(e){
         });
 
         promise.always(function(data){
-            
+            console.log(data);
+            console.log('ola');
             if(data.status == 401){
                 Swal.fire({
                     type: 'error',
