@@ -474,7 +474,7 @@ $("#send").click(function(e){
 
         var from = $("input[name=from]").val();
 
-        var message = $("input[name=message]").val();
+        var message = $("input[name=msg]").val();
 
         var promise = $.ajax({
         cache:false,

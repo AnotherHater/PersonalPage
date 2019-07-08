@@ -8,6 +8,7 @@ class mail extends Controller
 {
 
     function send(Request $request){
+        /*
       $email = new \SendGrid\Mail\Mail(); 
       $email->setFrom("cinemundo.org@gmail.com", $request->input('name'));
       $email->setSubject($request->input('name').' is requesting your job.');
@@ -49,7 +50,24 @@ class mail extends Controller
           print $response->body() . "\n";
       } catch (Exception $e) {
           echo 'Caught exception: '. $e->getMessage() ."\n";
-      }
+      }*/
+      $data =[
+        'name' =>$request->input('name'),
+        'email' => $request->input('from') ,
+        'msg' =>$request->input('message')
+    ];
+    \Mail::send('mail',$data,function($msg) use ($request,$data){
+
+        $msg->to('rdgp99@gmail.com', 'Ruben Garcia')
+                ->subject($request->input('name').' is requesting your job.')
+                ->from('cinemundo.org@gmail.com','Request for Job');
+    });
+
+    if (\Mail::failures()) {
+       return response()->json(['Sorry! Please try again latter'],401);
+     }else{
+       return response()->json(['Ok'],200);
+     }
       
     }
 }
