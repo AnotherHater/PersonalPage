@@ -517,12 +517,10 @@ $("#send").click(function(e){
 
 $('.title').click(function(){
     $(this).parents('.flip-card-inner').toggleClass('is-flipped');
-    $(this).parents('.flip-card-inner').find('.imgBx').fadeOut(200);
 });
 
 $('.backBtn').click(function(){
     $(this).parents('.flip-card-inner').toggleClass('is-flipped');
-    $(this).parents('.flip-card-inner').find('.imgBx').delay(200).fadeIn(200);
 });
 
 
