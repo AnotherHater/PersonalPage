@@ -655,15 +655,17 @@ $(".c-footer-back:contains('person')").click(function() {
 var opened = false;
  $(document).ready(function(){
   $("#flip").click(function(){
-	  $("#nav").slideToggle(700);
+	  
       if( opened ==false){
-        $("#spiders").css("margin-top","-100px");
+        $("#spiders").css("margin-top","-70px");
+        $(".hero_layer").css("margin-top","-70px");
         opened = true;
       }else{
         $("#spiders").css("margin-top","0px");
+        $(".hero_layer").css("margin-top","0px")
         opened = false;
       }    
-      
+      $("#nav").slideToggle(700);
   });
 });
 
