@@ -540,6 +540,10 @@ $(".col:contains('code')").click(function() {
 			$('.back').parent().find('.full-name-back').html('<p class="full-name-back valign-wrapper">&nbsp&nbsp&nbsp&nbsp Learn about my code.</p><br>');
 			$('.back').parent().find('.city-back').html('Clean, neat and understandable.');
 		}
+
+        if($( window ).width() <= 500){
+            $("#parallax2").toggleClass("adjust2");
+        }
 	});
 /*Action for skills button*/
 $(".col:contains('list')").click(function() {
@@ -556,31 +560,76 @@ $(".col:contains('list')").click(function() {
 		$('.back').parent().find('.full-name-back').html("<p class='full-name-back valign-wrapper'>&nbsp&nbspAbout my skills</p>");
         //setting a delay between appearing skills
         setTimeout(function() {
-            document.getElementById("mysql").style.animationPlayState = "running";
+            $('#mysql').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 200);
         setTimeout(function() {
-            document.getElementById("lv").style.animationPlayState = "running";
+            $('#lv').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 300);
         setTimeout(function() {
-            document.getElementById("jquery").style.animationPlayState = "running";
+            $('#jquery').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 400);
         setTimeout(function() {
-        document.getElementById("react").style.animationPlayState = "running";
+            $('#react').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 500);
         setTimeout(function() {
-        document.getElementById("flex").style.animationPlayState = "running";
+            $('#flex').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 600);
         setTimeout(function() {
-            document.getElementById("css").style.animationPlayState = "running";
+            $('#css').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 700);
         setTimeout(function() {
-            document.getElementById("html").style.animationPlayState = "running";
+            $('#html').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 800);
         setTimeout(function() {
-            document.getElementById("php").style.animationPlayState = "running";
+            $('#php').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 900);
         setTimeout(function() {
-            document.getElementById("js").style.animationPlayState = "running";
+            $('#js').css({
+                "animation-play-state": "running",
+                "-o-animation-play-state":  "running",
+                "-moz-animation-play-state": "running",
+                "-webkit-animation-play-state":  "running"
+            });
         }, 1000);
         //adding an adjust to parallax because of skills section too large.
         $("#parallax2").toggleClass("adjust");
@@ -591,6 +640,7 @@ $(".col:contains('list')").click(function() {
 $(".c-footer-back:contains('person')").click(function() {
     if(side==false){
         $("#parallax2").removeClass("adjust");
+        $("#parallax2").removeClass("adjust2");
      }
 	$('.c-card').toggleClass('flipped');			/*this line makes the card flip*/
 		side=!side; /*Here is my boolean var to identify if is it back or front side*/

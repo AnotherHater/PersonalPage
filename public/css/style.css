@@ -81,6 +81,10 @@ img {
 
 	.parallax.adjust{
 		height: 620px;
+  }
+  
+  .parallax.adjust2{
+		height: 580px;
 	}
 
 
@@ -746,8 +750,14 @@ label li{
 .tecnology{
 	font-size: 1.1rem;
   font-weight: 600;
-	margin: 15px 0 0 15px;
-	animation:pulse 2s;
+  margin: 15px 0 0 15px;
+  -webkit-animation: pulse 2s ease-in-out;
+  -o-animation: pulse 2s ease-in-out;
+  -moz-animation: pulse 2s ease-in-out;
+  animation: pulse 2s ease-in-out;
+  -o-animation-play-state:  paused;
+  -moz-animation-play-state:  paused;
+  -webkit-animation-play-state:  paused;
 	animation-play-state: paused;
 
 }
@@ -1005,12 +1015,12 @@ span i{
     height: 40px;
   }
 
-  .tabs ul li:nth-child(2) label span .responsive {
-    transform: translateY(-30px);
+  .tabs ul li:nth-child(2) label span .responsive{
+    transform: translateY(-29px) !important;
   }
 
   .tabs ul li:nth-child(3) label span .responsive {
-    transform: translateY(-30px);
+    transform: translateY(-27px);
   }
 
   .tabs ul li label span {
@@ -1044,7 +1054,7 @@ span i{
 	display: flex;
 	align-items: center;
 	padding-top: 2rem;
-	background-color: #393e46;
+  background-color: #393e46;
 }
 
 .container {
@@ -1061,13 +1071,17 @@ span i{
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.8);
-	margin: 0 auto;
+  margin: 0 auto;
+  font-family: "nunito black";
+
 }
 
 .footer-nav {
 	margin-top: 1rem;
 	font-size: 1.5rem;
-	color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
+  font-family: "nunito book";
+
 }
 
 .social-media {
@@ -1285,6 +1299,11 @@ span i{
 
 
 @media only screen and (max-width:500px){
+
+  .parallax{
+    height: 520px;
+  }
+
 
   .button{
     transform: translateX(90px);
@@ -1555,6 +1574,10 @@ span i{
 
 @media only screen and (max-width:321px){
 
+  .hero-layer{
+    transform: translateY(-80%);
+  }
+
   .button{
     transform: translateX(70px);
 
@@ -1586,6 +1609,8 @@ span i{
     margin-left: 100px !important;
   }
 
+
+
   .parallax.adjust{
 		height: 820px;
   }
@@ -1611,8 +1636,15 @@ span i{
 
   .c-card .front,.back{
     max-width: 300px;
+
   }
 
+  .c-card.flipped {
+    -webkit-transform: rotateY( 180deg ) translateX(33px);
+    -moz-transform: rotateY( 180deg ) translateX(33px);
+    -o-transform: rotateY( 180deg ) translateX(33px);
+    transform: rotateY( 180deg ) translateX(33px);
+    }
   
   .c-footer-back .col{
     transform:translateX(89px);
@@ -1635,7 +1667,6 @@ span i{
   position:absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  
   }
 
   .wrap {
