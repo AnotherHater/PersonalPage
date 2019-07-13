@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Rubén García - Full Stack Developer</title>
     <style>
            
@@ -437,9 +438,9 @@
         </div>
       </div>
     </footer>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
-<script type="text/javascript" src="js/js.min.js"></script>
+<script  src="js/js.min.js"></script>
 </body>
 </html>
