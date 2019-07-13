@@ -9,16 +9,7 @@
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Rubén García - Full Stack Developer</title>
     <style>
-           
 
-            .background {
-                background-image: url("storage/body2.png");
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-
-            }
 
         *{
 			margin: 0;
