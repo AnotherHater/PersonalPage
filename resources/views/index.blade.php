@@ -433,10 +433,6 @@
     </footer>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
 <script async src="https://cdn.jsdelivr.net/npm/sweetalert2@8" ></script>
-<<<<<<< HEAD
-<script async src="js/require.min.js"></script>
-=======
->>>>>>> c400c8804ca3f862d9ebfce1d33286b4a4c7d349
 <script async src="js/js.min.js"></script>
 </body>
 </html>
