@@ -17,7 +17,32 @@
             box-sizing:border-box;
         }
         
-            
+        .flexcontainer { 
+            display: -ms-inline-flexbox;
+            display: -webkit-inline-flex;
+            display: inline-flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-justify-content: center;
+            -ms-flex-pack:center;
+            justify-content: center;
+            -webkit-align-content: flex-start;
+            -ms-flex-line-pack: start;
+            align-content: flex-start;
+            -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        .flexcontainer .flip-card{
+            margin: 10px;
+        }
+
 
     </style>
 </head>
@@ -140,8 +165,8 @@
                 </div>
                 <div class="content" style="text-align:center;">
                     <section id="portfolio">
-                       <div class="twit-container">
-                           <div class="twit">
+                       <div class="flexcontainer">
+                           <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -169,7 +194,7 @@
                                     </div>
                                 </div>
                            </div>
-                           <div class="twit">
+                           <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -197,7 +222,7 @@
                                     </div>
                                 </div>
                            </div>
-                           <div class="twit">
+                           <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -225,7 +250,7 @@
                                     </div>
                                 </div>
                            </div>
-                           <div class="twit">
+                           <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -256,8 +281,8 @@
                        </div>
                     </section>
                     <section id="resources">
-                        <div class="twit-container">
-                            <div class="twit">
+                        <div class="flexcontainer">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -271,7 +296,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -285,7 +310,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -299,7 +324,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -313,7 +338,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -327,7 +352,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -341,7 +366,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -355,7 +380,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="twit">
+                            <div class="">
                                 <div class="flip-card">
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
@@ -433,10 +458,6 @@
     </footer>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
 <script async src="https://cdn.jsdelivr.net/npm/sweetalert2@8" ></script>
-<<<<<<< HEAD
-<script async src="js/require.min.js"></script>
-=======
->>>>>>> c400c8804ca3f862d9ebfce1d33286b4a4c7d349
 <script async src="js/js.min.js"></script>
 </body>
 </html>
