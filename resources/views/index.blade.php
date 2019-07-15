@@ -8,43 +8,6 @@
     <link rel="stylesheet" async href="css/style.min.css">
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Rubén García - Full Stack Developer</title>
-    <style>
-
-
-        *{
-			margin: 0;
-			padding: 0;
-            box-sizing:border-box;
-        }
-        
-        .flexcontainer { 
-            display: -ms-inline-flexbox;
-            display: -webkit-inline-flex;
-            display: inline-flex;
-            -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-            flex-direction: row;
-            -webkit-flex-wrap: wrap;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            -webkit-justify-content: center;
-            -ms-flex-pack:center;
-            justify-content: center;
-            -webkit-align-content: flex-start;
-            -ms-flex-line-pack: start;
-            align-content: flex-start;
-            -webkit-align-items: flex-start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-            width: 100%;
-        }
-
-        .flexcontainer .flip-card{
-            margin: 10px;
-        }
-
-
-    </style>
 </head>
 <body>
 	<div class="parallax" style="background-image: linear-gradient(rgba(49, 29, 63,.3),rgba(0,0,0,.5)),url('/storage/body2.jpeg');">
