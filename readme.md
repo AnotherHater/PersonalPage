@@ -30,12 +30,12 @@ Soon I will be updating my projects section to demonstrate my skills to all my v
 
 ### [Visit Me](https://rubengarcia.herokuapp.com/)
 
-![screen shot 2019-01-11 at 11 28 59 am](https://photos.google.com/u/1/photo/AF1QipN4m2tRf5_yKfpQzCGksc2gSpAYmP0yjcyLo_MJ)
+![screen shot 2019-01-11 at 11 28 59 am](https://photos.app.goo.gl/gh4cpaowU8YXaoQt8)
 
 ## You can contact me here.
 
 I implemented a contact form that will be responsible for sending any message through the page to my email, it is very important that you place your contact email to be able to respond.
 
-![screen shot 2019-01-11 at 11 24 00 am](https://photos.google.com/u/1/photo/AF1QipPPoSrmwpie5EKYUAP8bD7096uyzqhckR95haz2)
+![screen shot 2019-01-11 at 11 24 00 am](https://photos.app.goo.gl/gS7zvSWAhrBcs45W7)
 
 Coded with :heart: by [Rubén García](https://rubengarcia.herokuapp.com/)
