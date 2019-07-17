@@ -31,12 +31,12 @@ Soon I will be updating my projects section to demonstrate my skills to all my v
 ### [Visit Me](https://rubengarcia.herokuapp.com/)
 
 
-![Presentation](https://www.photobox.co.uk/my/photo/full?photo_id=501996185570)
+![Presentation](/public/storage/presentation.png)
 
 ## You can contact me here.
 
 I implemented a contact form that will be responsible for sending any message through the page to my email, it is very important that you place your contact email to be able to respond.
 
-![Contact](https://photos.app.goo.gl/gS7zvSWAhrBcs45W7)
+![Contact](/public/storage/contact me.png)
 
 Coded with :heart: by [Rubén García](https://rubengarcia.herokuapp.com/)
