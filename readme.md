@@ -21,38 +21,21 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-## Learning Laravel
+# My Page
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+I decided to design this website for my personal use as the first step for my venture towards the freelancer path. It is made with pure CSS, jQuery and some features offered by the Laravel framework.
 
-## Laravel Sponsors
+Soon I will be updating my projects section to demonstrate my skills to all my visitors.
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+### [Visit Me](https://rubengarcia.herokuapp.com/)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
+![screen shot 2019-01-11 at 11 28 59 am](https://photos.google.com/u/1/photo/AF1QipN4m2tRf5_yKfpQzCGksc2gSpAYmP0yjcyLo_MJ)
 
-## Contributing
+## You can contact me here.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+I implemented a contact form that will be responsible for sending any message through the page to my email, it is very important that you place your contact email to be able to respond.
 
-## Security Vulnerabilities
+![screen shot 2019-01-11 at 11 24 00 am](https://photos.google.com/u/1/photo/AF1QipPPoSrmwpie5EKYUAP8bD7096uyzqhckR95haz2)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Coded with :heart: by [Rubén García](https://rubengarcia.herokuapp.com/)
