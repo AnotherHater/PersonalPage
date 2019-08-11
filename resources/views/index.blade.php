@@ -422,6 +422,6 @@
     </footer>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
 <script async src="https://cdn.jsdelivr.net/npm/sweetalert2@8" ></script>
-<script src="js/js.min.js"></script>
+<script async src="js/js.min.js"></script>
 </body>
 </html>
