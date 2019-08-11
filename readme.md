@@ -2,7 +2,7 @@
 
 I decided to design this website for my personal use as the first step for my venture towards the freelancer path. It is made with pure CSS, jQuery and some features offered by the Laravel framework.
 
-Soon I will be updating my projects section to demonstrate my skills to all my visitors.
+Soon I will be updating my projects section to demostrate my skills to all my visitors.
 
 ### [Visit my site](https://rubengarcia.herokuapp.com/)
 
