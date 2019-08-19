@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="public, max-age=3024000, must-revalidate" />
     <link rel="stylesheet" async href="css/style.min.css">
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Rubén García - Full Stack Developer</title>
@@ -145,7 +146,7 @@
                                         <div class="flip-card-back">
                                             <div  class="info">
                                                 <h2 class="title">About this project</h2><br>
-                                                <P>A demo version of a car dealership page. At this moment i'm adding some features, will be complete soon.</P>
+                                                <P>A demo version of a car dealership page. At this moment i'm adding some new features, will be complete soon.</P>
                                                 <div class="backBtn">
                                                     <span class="line tLine"></span>
                                                     <span class="line mLine"></span>
