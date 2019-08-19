@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Rubén García - Full Stack Developer</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" async href="css/style.min.css">
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Rubén García - Full Stack Developer</title>
 </head>
 <body>
 	<div class="parallax" style="background-image: linear-gradient(rgba(49, 29, 63,.3),rgba(0,0,0,.5)),url('/storage/body2.jpeg');">
@@ -135,12 +134,12 @@
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
                                             <div  class="imgBx">                                     
-                                                <img src="storage/CarSale.png">
+                                                <img src="storage/galaxy.png">
                                                 <h1 class="img-title" style="color:white;">Car Sale</h1>
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <a href="https://github.com/AnotherHater/CarSale"><h2  class="title" id="CS-gh"><span class="title-container">See on Github &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
+                                                <a href=""><h2  class="title" id="CS-gh"><span class="title-container">There is no GitHub yet &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
