@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" async href="css/style.min.css">
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" async href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rubén García - Full Stack Developer</title>
 </head>
 <body>
@@ -139,7 +140,7 @@
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <a href=""><h2  class="title" id="CS-gh"><span class="title-container">There is no GitHub yet &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
+                                                <a href="https://github.com/AnotherHater/CarSale"><h2  class="title" id="CS-gh"><span class="title-container">See on GitHub &nbsp; <i class="fa fa-github" style="font-size:25px;height:25px;"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
