@@ -134,18 +134,18 @@
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
                                             <div  class="imgBx">                                     
-                                                <img src="storage/galaxy.png">
+                                                <img src="storage/CarSale.png">
                                                 <h1 class="img-title" style="color:white;">Car Sale</h1>
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <a href=""><h2  class="title" id="CS-gh"><span class="title-container">There is no GitHub yet &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
+                                                <a href="https://github.com/AnotherHater/CarSale"><h2  class="title" id="CS-gh"><span class="title-container">See on Github &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
                                             <div  class="info">
                                                 <h2 class="title">About this project</h2><br>
-                                                <P>This project is still under development, so it will be incorporated soon in this section. Maybe to 07/10/2019.</P>
+                                                <P>A demo version of a car dealership page. At this moment i'm adding some features, will be complete soon.</P>
                                                 <div class="backBtn">
                                                     <span class="line tLine"></span>
                                                     <span class="line mLine"></span>
