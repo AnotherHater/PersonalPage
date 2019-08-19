@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Cache-Control" content="public, max-age=3024000, must-revalidate" />
     <link rel="stylesheet" async href="css/style.min.css">
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Rubén García - Full Stack Developer</title>
@@ -135,7 +134,7 @@
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
                                             <div  class="imgBx">                                     
-                                                <img src="storage/galaxy.png">
+                                                <img src="storage/CarSale.png">
                                                 <h1 class="img-title" style="color:white;">Car Sale</h1>
                                             </div>
                                             <div  class="details">
