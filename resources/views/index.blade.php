@@ -63,7 +63,7 @@
 							    <p class="username">@Another_Hater</p>
 								<p class="city">Venezuela</p>
 								<br>
-								<p class="desc">I'm a full stack developer, always ready to learn and develop. I will never give up until my goals are complete.</p>
+								<p class="desc">I'm a full stack developer, always ready to learn and develop. I love what I do and what I can learn with my travel as a freelancer.</p>
 								<br>
 								<p id="icons">
 								<a href="https://www.facebook.com/rubengp99" class="hover-zoom"><img src="storage/facebook.png" alt="Facebook" ></a>
@@ -151,7 +151,7 @@
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <a href="https://github.com/AnotherHater/CarSale"><h2  class="title" id="CS-gh"><span class="title-container">See on GitHub &nbsp; <i class="fa fa-github" style="font-size:25px;height:25px;"></i></span></h2></a>
+                                                <a href="https://github.com/AnotherHater/CarSale" target="_blank"><h2  class="title" id="CS-gh"><span class="title-container">See on GitHub &nbsp; <i class="fa fa-github" style="font-size:25px;height:25px;"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
@@ -179,7 +179,7 @@
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <h2  class="title" id="CS-gh"><span class="title-container">See on Github &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2>
+                                                <a href="https://github.com/AnotherHater/ThirstyOasis" target="_blank"><h2  class="title" id="CS-gh"><span class="title-container">See on Github &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
@@ -207,7 +207,7 @@
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <h2  class="title" id="CS-gh"><span class="title-container">See on GitHub &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2>
+                                                <a href="https://fivedemo.herokuapp.com/home" target="_blank"><h2  class="title" id="CS-gh"><span class="title-container">View demo &nbsp; <i class="fa fa-desktop" style="font-size:25px"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
