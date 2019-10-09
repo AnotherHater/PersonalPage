@@ -179,7 +179,7 @@
                                             </div>
                                             <div  class="details">
                                                 <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <a href="https://github.com/AnotherHater/ThirstyOasis" target="_blank"><h2  class="title" id="CS-gh"><span class="title-container">See on Github &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2></a>
+                                                <a href="http://thirstyoasis.herokuapp.com/" target="_blank"><h2  class="title" id="CS-gh"><span class="title-container">View Demo &nbsp; <i class="fa fa-desktop" style="font-size:25px"></i></span></h2></a>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
