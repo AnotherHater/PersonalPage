@@ -9,6 +9,17 @@
     <link rel="stylesheet" async href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" async href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rubén García - Full Stack Developer</title>
+    <style>
+        html{
+            overflow-y:scroll;
+            scrollbar-width:none;
+        }
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+            display:none;
+        }
+    </style>
 </head>
 <body>
 	<div class="parallax" style="background-image: linear-gradient(rgba(49, 29, 63,.3),rgba(0,0,0,.5)),url('/storage/body2.jpeg');">
@@ -135,7 +146,7 @@
                                     <div class="flip-card-inner">
                                         <div class="flip-card-front">
                                             <div  class="imgBx">                                     
-                                                <img src="storage/CarSale.png">
+                                                <img src="storage/CarSale.png" style="    object-fit: fill;">
                                                 <h1 class="img-title" style="color:white;">Car Sale</h1>
                                             </div>
                                             <div  class="details">
@@ -146,7 +157,63 @@
                                         <div class="flip-card-back">
                                             <div  class="info">
                                                 <h2 class="title">About this project</h2><br>
-                                                <P>A demo version of a car dealership page. At this moment i'm adding some new features, will be complete soon.</P>
+                                                <P>A demo version of a car dealership page. It is most front design than backend, one of my first practices made with <strong>Laravel</strong>, <strong>CSS3</strong> & <strong>jQuery</strong>.</P>
+                                                <div class="backBtn">
+                                                    <span class="line tLine"></span>
+                                                    <span class="line mLine"></span>
+                                                    <span class="label">Go back</span>
+                                                    <span class="line bLine"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div  class="imgBx">                                     
+                                                <img src="storage/thirstyoasis.png" style="object-position: -57px -1px;">
+                                                <h1 class="img-title" style="color:white;">Thirsty Oasis</h1>
+                                            </div>
+                                            <div  class="details">
+                                                <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
+                                                <h2  class="title" id="CS-gh"><span class="title-container">See on Github &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div  class="info">
+                                                <h2 class="title">About this project</h2><br>
+                                                <P>Front design of a broadcasting website made from a Figma design provided by my client. One of my first practices with <strong>VueJS</strong> + <strong>Laravel</strong>, includes <strong>Bootstrap</strong>.</P>
+                                                <div class="backBtn">
+                                                    <span class="line tLine"></span>
+                                                    <span class="line mLine"></span>
+                                                    <span class="label">Go back</span>
+                                                    <span class="line bLine"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <div  class="imgBx">                                     
+                                                <img src="storage/nolimit.png" style="object-fit: contain;">
+                                                <h1 class="img-title" style="color:white;">No Limit Roleplay</h1>
+                                            </div>
+                                            <div  class="details">
+                                                <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
+                                                <h2  class="title" id="CS-gh"><span class="title-container">See on GitHub &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2>
+                                            </div>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div  class="info">
+                                                <h2 class="title">About this project</h2><br>
+                                                <P>A more complex website forum style made with <strong>Chatter</strong> Package for <strong>Laravel</strong>, includes <strong>Flexbox</strong>, <strong>VueJS</strong> & <strong>Chatkit API</strong> from Pusher. Includes a live chat for logged users.</P>
                                                 <div class="backBtn">
                                                     <span class="line tLine"></span>
                                                     <span class="line mLine"></span>
@@ -174,63 +241,7 @@
                                         <div class="flip-card-back">
                                             <div  class="info">
                                                 <h2 class="title">About this project</h2><br>
-                                                <P>This project is still under development, so it will be incorporated soon in this section.</P>
-                                                <div class="backBtn">
-                                                    <span class="line tLine"></span>
-                                                    <span class="line mLine"></span>
-                                                    <span class="label">Go back</span>
-                                                    <span class="line bLine"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                           </div>
-                           <div class="">
-                                <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                        <div class="flip-card-front">
-                                            <div  class="imgBx">                                     
-                                                <img src="storage/galaxy.png">
-                                                <h1 class="img-title" style="color:white;">Coming Soon</h1>
-                                            </div>
-                                            <div  class="details">
-                                                <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <h2  class="title" id="CS-gh"><span class="title-container">There is no GitHub yet &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2>
-                                            </div>
-                                        </div>
-                                        <div class="flip-card-back">
-                                            <div  class="info">
-                                                <h2 class="title">About this project</h2><br>
-                                                <P>This project is still under development, so it will be incorporated soon in this section.</P>
-                                                <div class="backBtn">
-                                                    <span class="line tLine"></span>
-                                                    <span class="line mLine"></span>
-                                                    <span class="label">Go back</span>
-                                                    <span class="line bLine"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                           </div>
-                           <div class="">
-                                <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                        <div class="flip-card-front">
-                                            <div  class="imgBx">                                     
-                                                <img src="storage/galaxy.png">
-                                                <h1 class="img-title" style="color:white;">Coming Soon</h1>
-                                            </div>
-                                            <div  class="details">
-                                                <h2  class="title" id="CS-more">More details <i style="vertical-align:middle;" class="material-icons">more_horiz</i></h2>
-                                                <h2  class="title" id="CS-gh"><span class="title-container">There is no GitHub yet &nbsp; <i class="fa fa-github" style="font-size:25px"></i></span></h2>
-                                            </div>
-                                        </div>
-                                        <div class="flip-card-back">
-                                            <div  class="info">
-                                                <h2 class="title">About this project</h2><br>
-                                                <P>This project is still under development, so it will be incorporated soon in this section.</P>
+                                                <P>This project will be developed with Wordpress, i'll be uploading it soon.</P>
                                                 <div class="backBtn">
                                                     <span class="line tLine"></span>
                                                     <span class="line mLine"></span>
